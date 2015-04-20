@@ -124,8 +124,8 @@ function classic_iphone_meta() {
 	
 	// lock the viewport as 1:1, no zooming, unless enabled for mobile
 	if ( $ipad || !classic_mobile_enable_zoom() ) {	
-    //		echo "<meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, user-scalable=no' /> \n";
-    		echo "<meta name='viewport' content='width=320' /> \n";
+    		echo "<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' /> \n";
+    		//echo "<meta name='viewport' content='width=320' /> \n";
 	} else {
 		echo "<meta name='viewport' content='initial-scale=1.0, maximum-scale=2.0, user-scalable=yes' /> \n";
 	}
