@@ -81,7 +81,7 @@ foreach ( $jht_jets as $v ) $jetcount += $v;
             <li>Monthly energy costs are estimates based on the results of the California Energy Commissions Portable Hot Tub Testing Protocol. Ambient temperature of 60° F / 15° C and national average of 10 cents per kWh. Actual monthly costs may vary depending on temperature, electricity costs, and usage.</li>
         </ul>        
         <div class="tubcolors">
-        <h3>Acryllic Shell Colors</h3>
+        <h3>Acrylic Shell Colors</h3>
         <p>The Jacuzzi TriFusion&trade; System produces a durable acrylic spa shell that is eight times stronger than conventional fiberglass shells and rich in color and texture.</p>
             <ul>
                 <?php
