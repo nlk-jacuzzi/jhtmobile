@@ -32,7 +32,7 @@
 
 				<!-- connect img -->
 				<a href="#connect-button">
-					<img id="remote-button" src="/hot-tubs/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-button.png" align="left" />
+					<?php echo do_shortcode('[video_lightbox_youtube video_id="qMxV5mTJlYU" width="640" height="480" anchor="' . get_bloginfo('url') . '/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-button.png" autoplay="true"]'); ?>
 				</a>
 				
 			</div>
@@ -43,7 +43,7 @@
 			
 			<div class="<?php wptouch_content_classes(); ?>">
 				
-				<img src="/hot-tubs/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-imag2.jpg" align="center" />
+				<?php echo do_shortcode('[video_lightbox_youtube video_id="fiW-DfNAJzM" width="640" height="480" anchor="' . get_bloginfo('url') . '/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-imag2.jpg" autoplay="true"]'); ?>
 
 				<p><strong>ProLink&trade; puts the power to control your hot tub in the palm of your hand, whether in your living room or on the road.</strong> Using your smartphone device, you can operate and adjust the functions of your Jacuzzi&reg;  J-500&trade; Collection hot tub, including adjusting the water temperature, turning on jets and scheduling water care operations.</p>
 				<p>Already using ProLink™? <a href="<?php echo get_bloginfo('url'); ?>/wp-content/uploads/2015/03/Jacuzzi-App-Troubleshoot-Rev-0.pdf">Find connection tips here.</a></p>
