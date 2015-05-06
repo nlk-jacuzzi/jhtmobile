@@ -21,8 +21,8 @@
 			<div class="<?php wptouch_content_classes(); ?>">
 
 				<!-- video goes here -->
-				<a href="#video-link">
-					<?php echo do_shortcode('[video_lightbox_youtube video_id="fiW-DfNAJzM" width="640" height="480" anchor="' . get_bloginfo('url') . '/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-imag1.jpg" autoplay="true"]'); ?>
+				<a href="//www.youtube.com/embed/fiW-DfNAJzM?rel=0&autoplay=1">
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-imag1.jpg" />
 				</a>
 
 				<h2><span class="white">JACUZZI&reg; BRAND HOT TUBS</span><br>
@@ -31,8 +31,8 @@
 				<p>Jacuzzi&reg; Hot Tubs debuts a new way for spa owners to combine smartphone technology with tech-savvy J-500&trade; Collection hot tubs: the ProLink&trade; app.</p>
 
 				<!-- connect img -->
-				<a href="#connect-button">
-					<?php echo do_shortcode('[video_lightbox_youtube video_id="qMxV5mTJlYU" width="640" height="480" anchor="' . get_bloginfo('url') . '/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-button.png" autoplay="true"]'); ?>
+				<a href="//www.youtube.com/embed/qMxV5mTJlYU?rel=0&autoplay=1">
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-button.png" />
 				</a>
 				
 			</div>
