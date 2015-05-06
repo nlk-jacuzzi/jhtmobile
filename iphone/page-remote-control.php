@@ -21,7 +21,7 @@
 			<div class="<?php wptouch_content_classes(); ?>">
 
 				<!-- video goes here -->
-				<a href="//www.youtube.com/embed/fiW-DfNAJzM?rel=0&autoplay=1">
+				<a href="//www.youtube.com/embed/fiW-DfNAJzM?rel=0&autoplay=1" target="_blank">
 					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-imag1.jpg" />
 				</a>
 
@@ -31,7 +31,7 @@
 				<p>Jacuzzi&reg; Hot Tubs debuts a new way for spa owners to combine smartphone technology with tech-savvy J-500&trade; Collection hot tubs: the ProLink&trade; app.</p>
 
 				<!-- connect img -->
-				<a href="//www.youtube.com/embed/qMxV5mTJlYU?rel=0&autoplay=1">
+				<a href="//www.youtube.com/embed/qMxV5mTJlYU?rel=0&autoplay=1" target="_blank">
 					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-button.png" />
 				</a>
 				
