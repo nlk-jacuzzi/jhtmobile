@@ -45,8 +45,8 @@
 
 				<img src="/hot-tubs/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-imag2.jpg" align="center" />
 
-				<p><strong>ProLink&trade; puts the power to control your hot tub in the palm of your hand, whether in your living room or on the road.</strong> Using your smartphone device, you can operate and adjust the functions of your Jacuzzi&reg;  J-500&trade; Collection hot tub, including adjusting the water temperature, turning on jets and scheduling water care operations.</p>
-				<p><br />Already using ProLink™? <a href="<?php echo get_bloginfo('url'); ?>/wp-content/uploads/2015/03/Jacuzzi-App-Troubleshoot-Rev-0.pdf">Find connection tips here.</a></p>
+				<p><strong>ProLink&trade; puts the power to control your hot tub in the palm of your hand, whether in your living room or on the road. Using your smartphone device, you can operate and adjust the functions of your Jacuzzi&reg; J-500&trade; Collection hot tub, including adjusting the water temperature, turning on jets and scheduling water care operations.</p>
+				<p><br /><a href="<?php echo get_bloginfo('url'); ?>/wp-content/uploads/2015/03/Jacuzzi-App-Troubleshoot-Rev-0.pdf">Already using ProLink&trade;? Find connection tips here.</a></p>
 			</div>
 			
 		</div><!-- wptouch_posts_classes() -->
@@ -96,12 +96,12 @@
 				<img src="/hot-tubs/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-img4.jpg" align="center" />
 
 				<h3>Get Alerts</h3>
-				<p>ProLink&reg; is not only convenient, it can help keep your J-500&trade; Collection hot tub running newer longer. From alerting you and your local dealership when errors occur on your hot tub so you can respond with quick preventative services to reminding you when it�s time for maintenance tasks such as changing your CLEARRAY&reg; bulb or water, ProLink&reg; makes caring for your hot tub easy.</p>
+				<p>ProLink&trade; is not only convenient, it can help keep your J-500&trade; Collection hot tub running newer longer. From alerting you and your local dealership when errors occur on your hot tub so you can respond with quick preventative services to reminding you when it's time for maintenance tasks such as changing your CLEARRAY&reg; bulb or water, ProLink&trade; makes caring for your hot tub easy.</p>
 
 				<img src="/hot-tubs/wp-content/wptouch-data/themes/jhtmobile/iphone/images/remote-control-img5.jpg" align="center" />
 
 				<h3>J-500&trade; Collection Ready</h3>
-				<p>The ProLink&reg; app is compatible with Jacuzzi&reg; J-575&trade; and J-585&trade; hot tub models. ProLink&reg; is free for the first year and a subscription fee�after to be able to control your hot tub over the internet from anywhere.</p>
+				<p>The ProLink&trade; app is compatible with Jacuzzi&reg; J-575&trade; and J-585&trade; hot tub models. ProLink&trade; is free for the first year and a subscription fee after to be able to control your hot tub over the internet from anywhere.</p>
 
 			</div>
 			
