@@ -3536,6 +3536,20 @@ div.msrp-container {
 	background-color: #efefef;
 	padding: 10px;
 }
+div.msrp-container:before {
+	background-color: transparent;
+	border-top: 20px solid #ffffff;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	content: '';
+	display: block;
+	height: 0px;
+	left: 50%;
+	margin-left: -20px;
+	position: relative;
+	top: -10px;
+	width: 0px;
+}
 p.msrp-price {
 	font-size: 18px;
 }
