@@ -3535,6 +3535,7 @@ a.getpricing.close {
 div.msrp-container {
 	background-color: #efefef;
 	padding: 10px;
+	position: relative;
 }
 div.msrp-container:before {
 	background-color: transparent;
@@ -3546,8 +3547,8 @@ div.msrp-container:before {
 	height: 0px;
 	left: 50%;
 	margin-left: -20px;
-	position: relative;
-	top: -10px;
+	position: absolute;
+	top: 0px;
 	width: 0px;
 }
 p.msrp-price {
