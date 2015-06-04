@@ -3520,10 +3520,9 @@ a.getpricing, a.msrp-dealer, a.msrp-pricing {
 	font-family: "GSMT";
 	font-size: 17px;
 	font-weight: bold;
-	height: 18px;
-	line-height: 18px;
+	height: 30px;
+	line-height: 29px;
 	margin: 10px 0;
-	max-width: 300px;
 	padding: 10px 0;
 	text-align: center;
 	text-transform: uppercase;
