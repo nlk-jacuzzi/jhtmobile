@@ -333,7 +333,7 @@ a.mbtn .ar{float:right;width:18px;height:75px;background:url(images/ftr-ar.png) 
 .post ul.tubs{float:left;margin:0;padding:0;width:100%;list-style:none;text-indent:0;}
 ul.tubs li.tub{float:left;width:100%;position:relative;height:100px;background:url(images/tubbg.png) repeat-x 0 100%;margin:0;padding:0;list-style:none;overflow:hidden;}
 ul.tubs li.tub img{float:left;width:115px !important;height:auto !important;margin:0 !important;position:absolute;left:20px;top:8px;}
-ul.tubs li.tub a{float:right;width:145px;height:21px;font:18px/21px "GSMT", Arial, sans-serif;padding:6px 0 6px 12px;background:url(images/tubbtn.png) no-repeat 0 0;margin:7px 4px 0 0;color:#000;text-decoration:none;}
+ul.tubs li.tub a.btn{float:right;width:145px;height:21px;font:18px/21px "GSMT", Arial, sans-serif;padding:6px 0 6px 12px;background:url(images/tubbtn.png) no-repeat 0 0;margin:7px 4px 0 0;color:#000;text-decoration:none;}
 ul.tubs li.tub .spx{display:block;width:149px;top:47px;right:0;text-align:left;text-indent:0;font-size:14px;line-height:20px;position:absolute;}
 .post.tubtop{background:#1b1b1b url(images/tubtop.png) repeat-x 0 0;color:#fff;display:block;float:left;width:100%;text-align:center;padding:0;}
 .tubtop .tubnum{font-family:"GSL", sans-serif;font-size:29px;line-height:36px;margin:20px 0 10px;}
