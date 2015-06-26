@@ -2519,7 +2519,7 @@ ul.tubs li.tub img {
 	left: 20px;
 	top: 8px;
 }
-ul.tubs li.tub a.btn, ul.tubs li.tub a.ui-link {
+ul.tubs li.tub a.btn {
 	float: right;
 	width: 145px;
 	height: 21px;
