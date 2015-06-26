@@ -66,11 +66,13 @@ get_header(); ?>
 								foreach ( $tubs as $t ) {
 									echo '<li class="tub">';
 									if (class_exists('MultiPostThumbnails')) {
+										echo '<a href="'.get_permalink($t['id']).'">';
 										MultiPostThumbnails::the_post_thumbnail('jht_tub', 'three-quarter', $t['id'], 'three-quarter-nav');
+										echo '</a>';
 									}
 							?>
 								
-									<a href="<?php echo get_permalink($t['id']); ?>"><?php esc_attr_e($t['name']); ?></a>
+									<a class="btn" href="<?php echo get_permalink($t['id']); ?>"><?php esc_attr_e($t['name']); ?></a>
                                     <div class="spx">
                                     Seats: <?php esc_attr_e($t['seats']) ?><br />
 									Jets: <?php echo absint($t['jets']) ?>
