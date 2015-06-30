@@ -61,22 +61,22 @@ div[timg="silverwood"] img { background-color: #635e5f; }
 
 			<div class="tub-container">
 				<div class="tub-skirt">
-					<img class="active" src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/skirts/skirt-brazilianteak.png" timg="brazilianteak" width="300" height="213" />
-					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/skirts/skirt-roastedchestnut.png" timg="roastedchestnut" width="300" height="213" />
-					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/skirts/skirt-silverwood.png" timg="silverwood" width="300" height="213" />
+					<img class="active" src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/skirts/skirt-brazilianteak.png" timg="brazilianteak" width="300" height="213" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/skirts/skirt-roastedchestnut.png" timg="roastedchestnut" width="300" height="213" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/skirts/skirt-silverwood.png" timg="silverwood" width="300" height="213" />
 				</div>
 				<div class="tub-shell">
-					<img class="active" src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/platinum.png" timg="platinum" width="300" height="213" />
-					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/silverpearl.png" timg="silverpearl" width="300" height="213" />
-					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/monaco.png" timg="monaco" width="300" height="213" />
-					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/midnight.png" timg="midnight" width="300" height="213" />
-					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/opal.png" timg="opal" width="300" height="213" />
-					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/sahara.png" timg="sahara" width="300" height="213" />
-					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/sand.png" timg="sand" />
-					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/desertsand.png" timg="desertsand" width="300" height="213" />
-					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/caribbeansurf.png" timg="caribbeansurf" width="300" height="213" />
-					<!--img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/titanium.png" timg="titanium" width="300" height="213" /-->
-					<!--img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/slategreen.png" timg="slategreen" width="300" height="213" /-->
+					<img class="active" src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/platinum.png" timg="platinum" width="300" height="213" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/silverpearl.png" timg="silverpearl" width="300" height="213" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/monaco.png" timg="monaco" width="300" height="213" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/midnight.png" timg="midnight" width="300" height="213" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/opal.png" timg="opal" width="300" height="213" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/sahara.png" timg="sahara" width="300" height="213" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/sand.png" timg="sand" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/desertsand.png" timg="desertsand" width="300" height="213" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/caribbeansurf.png" timg="caribbeansurf" width="300" height="213" />
+					<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/titanium.png" timg="titanium" width="300" height="213" />
+					<!--img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/slategreen.png" timg="slategreen" width="300" height="213" /-->
 				</div>
 			</div>
 			<div class="tub-details">
@@ -93,23 +93,23 @@ div[timg="silverwood"] img { background-color: #635e5f; }
 
 			<h2><strong>Shell:</strong> <span class="shell-name"></span></h2>
 			<div class="shells">
-				<div class="shell thumb active" timg="platinum" data-pdf="platinum" rel="Platinum" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-platinum.png" width="49" height="49" /></div>
-				<div class="shell thumb" timg="silverpearl" data-pdf="silverpearl" rel="Silver Pearl" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-silverpearl.png" width="49" height="49" /></div>
-				<div class="shell thumb" timg="monaco" data-pdf="monaco" rel="Monaco" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-monaco.png" width="49" height="49" /></div>
-				<div class="shell thumb" timg="midnight" data-pdf="midnight" rel="Midnight" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-midnight.png" width="49" height="49" /></div>
-				<div class="shell thumb" timg="opal" data-pdf="opal" rel="Opal" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-opal.png" width="49" height="49" /></div>
-				<div class="shell thumb" timg="sahara" data-pdf="sahara" rel="Sahara" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-sahara.png" width="49" height="49" /></div>
-				<div class="shell thumb" timg="sand" data-pdf="sand" rel="Sand" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-sand.png" width="49" height="49" /></div>
-				<div class="shell thumb" timg="desertsand" data-pdf="desertsand" rel="Desert Sand" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-desertsand.png" width="49" height="49" /></div>
-				<div class="shell thumb" timg="caribbeansurf" data-pdf="caribbeansurf" rel="Caribbean Surf" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-caribbeansurf.png" width="49" height="49" /></div>
-				<!--div class="shell thumb" timg="titanium" data-pdf="titanium" rel="Titanium" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-titanium.png" width="49" height="49" /></div-->
-				<!--div class="shell thumb" timg="slategreen" data-pdf="slategreen" rel="Slate Green" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/shells/acrylic-thumb-slategreen.png" width="49" height="49" /></div-->
+				<div class="shell thumb active" timg="platinum" data-pdf="platinum" rel="Platinum" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-platinum.png" width="49" height="49" /></div>
+				<div class="shell thumb" timg="silverpearl" data-pdf="silverpearl" rel="Silver Pearl" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-silverpearl.png" width="49" height="49" /></div>
+				<div class="shell thumb" timg="monaco" data-pdf="monaco" rel="Monaco" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-monaco.png" width="49" height="49" /></div>
+				<div class="shell thumb" timg="midnight" data-pdf="midnight" rel="Midnight" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-midnight.png" width="49" height="49" /></div>
+				<div class="shell thumb" timg="opal" data-pdf="opal" rel="Opal" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-opal.png" width="49" height="49" /></div>
+				<div class="shell thumb" timg="sahara" data-pdf="sahara" rel="Sahara" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-sahara.png" width="49" height="49" /></div>
+				<div class="shell thumb" timg="sand" data-pdf="sand" rel="Sand" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-sand.png" width="49" height="49" /></div>
+				<div class="shell thumb" timg="desertsand" data-pdf="desertsand" rel="Desert Sand" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-desertsand.png" width="49" height="49" /></div>
+				<div class="shell thumb" timg="caribbeansurf" data-pdf="caribbeansurf" rel="Caribbean Surf" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-caribbeansurf.png" width="49" height="49" /></div>
+				<div class="shell thumb" timg="titanium" data-pdf="titanium" rel="Titanium" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-titanium.png" width="49" height="49" /></div>
+				<!--div class="shell thumb" timg="slategreen" data-pdf="slategreen" rel="Slate Green" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/shells/acrylic-thumb-slategreen.png" width="49" height="49" /></div-->
 			</div>
 			<h2><strong>Cabinetry:</strong> <span class="skirt-name"></span></h2>
 			<div class="skirts">
-				<div class="skirt thumb brazilianteak active" timg="brazilianteak" data-pdf="teak" rel="Brazilian Teak" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/skirts/skirt-thumb-brazilianteak.png" width="49" height="49" /></div>
-				<div class="skirt thumb roastedchestnut" timg="roastedchestnut" data-pdf="chest" rel="Roasted Chestnut" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/skirts/skirt-thumb-roastedchestnut.png" width="49" height="49" /></div>
-				<div class="skirt thumb silverwood" timg="silverwood" data-pdf="silver" rel="Silverwood" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/colorselector/skirts/skirt-thumb-silverwood.png" width="49" height="49" /></div>
+				<div class="skirt thumb brazilianteak active" timg="brazilianteak" data-pdf="teak" rel="Brazilian Teak" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/skirts/skirt-thumb-brazilianteak.png" width="49" height="49" /></div>
+				<div class="skirt thumb roastedchestnut" timg="roastedchestnut" data-pdf="chest" rel="Roasted Chestnut" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/skirts/skirt-thumb-roastedchestnut.png" width="49" height="49" /></div>
+				<div class="skirt thumb silverwood" timg="silverwood" data-pdf="silver" rel="Silverwood" ><img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/jht/images/lowres-colorselector/skirts/skirt-thumb-silverwood.png" width="49" height="49" /></div>
 			</div>
 			<a class="btn bigGoldBtn" href="/hot-tubs/get-a-quote/">Get Pricing</a>
 			<a class="pdf-download" href="" download="">Download Your Selected Color PDF</a>
