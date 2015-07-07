@@ -502,3 +502,12 @@ div[data-url="/hot-tubs/owners-corner/remote-control/"] .black-grad { background
 	background: linear-gradient(to bottom,  #282828 0%,#000000 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#282828', endColorstr='#000000',GradientType=0 ); /* IE6-9 */ }
 div[data-url="/hot-tubs/owners-corner/remote-control/"] .black-grad h2 { color: #fff; margin-top: 10px; text-align: center; }
+/* MSRP */
+div.msrp-button {clear: both;padding: 10px;}
+a.getpricing, a.msrp-dealer, a.msrp-pricing {background: url('/hot-tubs/wp-content/themes/jht/images/btn_pricing_bg.png') 0 0 repeat-x transparent;background-size: 1px 100%;border-radius: 5px;clear: both;color: #000000;display: block;font-family: "GSMT";font-size: 17px;font-weight: bold;height: 30px;line-height: 29px;margin: 10px 0;padding: 10px 0;text-align: center;text-transform: uppercase;text-decoration: none;}
+a.getpricing.close {background: #d1d1d1;background-color: #d1d1d1;}
+div.msrp-container {background-color: #efefef;padding: 10px;position:relative;}
+div.msrp-container:before {background-color: transparent;border-top: 20px solid #ffffff;border-left: 20px solid transparent;border-right: 20px solid transparent;content: '';display: block;height: 0px;left: 50%;margin-left: -20px;position: absolute;top: 0px;width: 0px;}
+p.msrp-price {font-size: 18px;}
+p.msrp-price span {font-size: 34px;}
+p.msrp-disclaimer {font-size: 14px;line-height: 1.5em;}
