@@ -91,8 +91,8 @@ dataLayer.push({
             <div class="msrp-container" style="display:none;">
                 <?php echo '<p class="msrp-price"><span>' . $msrp . '</span> MSRP</p>'; ?>
                 <p class="msrp-disclaimer"><strong>Disclaimer: </strong>Prices listed are Manufacturer's Suggested Retail Price (MSRP). Prices may not include additional fees, see authorized dealer for details.</p>
-                <a class="msrp-dealer" href="<?php bloginfo('url'); ?>/dealer-locator/">Find Your Nearest Dealer</a>
-                <a class="msrp-pricing" href="<?php bloginfo('url'); ?>/get-a-quote/?tid=<?php echo $post->ID; ?>">Request Pricing from Dealer</a>
+                <a class="msrp-dealer" href="<?php bloginfo('url'); ?>/dealer-locator/">Find A Dealer</a>
+                <a class="msrp-pricing" href="<?php bloginfo('url'); ?>/get-a-quote/?tid=<?php echo $post->ID; ?>">Get Pricing</a>
             </div>
         <?php endif; ?>
         <div class="moc">
