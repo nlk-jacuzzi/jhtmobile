@@ -3508,6 +3508,7 @@ div[data-url="/hot-tubs/owners-corner/remote-control/"] .black-grad h2 {
 
 /* MSRP */
 div.msrp-button {
+	display: none;
 	clear: both;
 	padding: 10px;
 }
