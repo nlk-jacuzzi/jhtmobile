@@ -3565,3 +3565,9 @@ p.msrp-disclaimer {
 	line-height: 1.5em;
 }
 /* @end */
+
+
+/*grvaity forms*/
+div.gform_wrapper ul, div.gform_wrapper ol {text-indent: 0px!important;}
+div.gform_wrapper div.ui-select .ui-btn-inner, div.gform_wrapper div.ui-submit .ui-btn-inner {display: none;}
+div.gform_wrapper div.ui-submit input[type="submit"] {width:100%;}
