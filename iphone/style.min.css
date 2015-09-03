@@ -262,7 +262,7 @@ form#commentform label{font-size:12px;font-weight:bold;}
 #respond a#cancel-comment-reply-link.active{text-shadow:#fff 0 1px 0px;border:1px solid #b1b1b1;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:inset rgba(0,0,0,.5) 0px 0px 4px;-moz-box-shadow:inset rgba(0,0,0,.5) 0px 0px 4px;box-shadow:inset rgba(0,0,0,.5) 0px 0px 4px;padding:4px 8px;background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff));background:-webkit-linear-gradient(top, #eee, #fff);background:-moz-linear-gradient(top, #eee, #fff);background:-o-linear-gradient(top, #eee, #fff);background:-ms-linear-gradient(top, #eee, #fff);background:linear-gradient(top, #eee, #fff);}
 .commentlist #respond h3{color:#333;font-size:15px;letter-spacing:0;text-shadow:none;margin-top:30px;margin-bottom:20px;width:60%;}
 .commentlist p.nocomments,.commentlist #respond p{text-align:left;text-shadow:#fff 0 1px 0;}
-.post.page-title-area{height:34px;line-height:34px;margin:0;background:url(images/pagetitle.png) repeat-x 0 0;color:#fff;}
+.post.page-title-area{/*height:34px;*/line-height:34px;margin:0;background:url(images/pagetitle.png) repeat-x 0 0;background-size:cover;color:#fff;}
 .dark-icon .page-title-area img{background:#444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border:1px solid #111;padding:2px;}
 .post.page-title-area img{float:left;width:32px;height:32px;margin-right:10px;}
 .post.page-title-area .thumbnail-wrap img{width:auto;height:auto;max-width:44px;max-height:44px;}
