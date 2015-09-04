@@ -367,7 +367,7 @@ GTM;
 /** BV : BazaarVoice Integrations **/
 
 	// load SDK
-	include_once('/wp-content/themes/jht/includes/bvseosdk.php');
+	include_once( ABSPATH . 'wp-content/themes/jht/includes/bvseosdk.php' );
 
 	// Enqueue BV scripts
 		function mob_bazaar_voice_scripts() {
