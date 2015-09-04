@@ -8,6 +8,18 @@
 $custom = get_post_meta($post->ID,'jht_specs');
 $jht_specs = $custom[0];
 
+$prod = esc_attr($jht_specs['product_id']);
+$is_staging = jht_my_server() == 'live' ? FALSE : TRUE;
+
+$bv = new BV(
+    array(
+        'deployment_zone_id' => 'Main_Site-en_US',
+        'product_id' => $prod, // must match ExternalID in the BV product feed
+        'cloud_key' => 'jacuzzi-6e973cecb3ca4a2d532da7d906a4cc84',
+        'staging' => $is_staging
+        )
+    );
+
 
 $custom = get_post_meta($post->ID,'jht_colors');
 $jht_colors = $custom[0];
@@ -40,7 +52,7 @@ $custom = get_post_meta($post->ID,'jht_jets');
 $jht_jets = $custom[0];
 $jetcount = 0;
 foreach ( $jht_jets as $v ) $jetcount += $v;
-		?>
+?>
 <script>
 dataLayer.push({ 
     'pageType':'productPage',
