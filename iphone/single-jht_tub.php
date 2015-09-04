@@ -60,6 +60,11 @@ dataLayer.push({
     'event':'pageReady'
 });
 </script>
+<script type="text/javascript">
+    $BV.ui( 'rr', 'show_reviews', {
+        doShowContent : function () {}
+    });
+</script>
 
 		<div class="post <?php //wptouch_post_classes(); ?> tubtop">
 
