@@ -1,15 +1,6 @@
 <?php
-$bv = new BV(
-    array(
-        'deployment_zone_id' => 'ReadOnly-en_US',
-        'product_id' => "JHT-ALL-REVIEWS", // must match ExternalID in the BV product feed
-        'cloud_key' => 'jacuzzi-6e973cecb3ca4a2d532da7d906a4cc84',
-        'staging' => false
-        )
-    );
-?>
-
-<?php get_header(); ?>	
+define('JHTMOBPX', true);
+get_header(); ?>	
 
 <?php if ( wptouch_classic_is_custom_latest_posts_page() ) { ?>
 	<?php wptouch_classic_custom_latest_posts_query(); ?>
@@ -18,18 +9,41 @@ $bv = new BV(
 	<?php if ( wptouch_have_posts() ) { ?>
 	
 		<?php wptouch_the_post(); ?>
+
+		<script type="text/javascript">                  
+			$BV.configure("global", { "productId" : "JHT-ALL-REVIEWS" });
+			$BV.ui( 'rr', 'show_reviews', {
+			doShowContent : function () {
+			    // If the container is hidden (such as behind a tab), put code here to make it visible (open the tab).
+			}
+			});
+			function submitGeneric() {
+			    $BV.ui(
+			        "rr",
+			        "submit_generic",
+			        { "categoryId" : "JHT" }
+			    );
+			}
+		</script>
+
 		<div class="<?php wptouch_post_classes(); ?> page-title-area rounded-corners-8px">
 
 			<h2 role="heading"><?php wptouch_the_title(); ?></h2>
 
 			<?php wp_link_pages( __( 'Pages in the article:', 'wptouch-pro' ), '', 'number' ); ?>
 
-		</div>	
-		
+		</div>
+
 		<div class="<?php wptouch_post_classes(); ?> rounded-corners-8px">
 			
 			<div class="<?php wptouch_content_classes(); ?>">
 				<?php wptouch_the_content(); ?>
+		        <div itemscope itemtype="http://schema.org/Product">
+		            <meta itemprop="name" content="<?php echo the_title(); ?>" />
+		            <div id="BVRRContainer">
+		                <?php echo $bv->reviews->getContent();?>
+		            </div>
+		        </div>
 			</div>
 			
 					<?php wp_link_pages( 'before=<div class="post-page-nav">' . __( "Pages", "wptouch-pro" ) . ':&after=</div>&next_or_number=number&pagelink=page %&previouspagelink=&raquo;&nextpagelink=&laquo;' ); ?>          
@@ -37,6 +51,5 @@ $bv = new BV(
 		</div><!-- wptouch_posts_classes() -->
 
 	<?php } ?>
-<?php } ?>
-
-<?php get_footer(); ?>
+<?php }
+get_footer(); ?>
