@@ -3509,7 +3509,7 @@ div[data-url="/hot-tubs/owners-corner/remote-control/"] .black-grad h2 {
 
 /* MSRP */
 div.msrp-button {
-	display: none;
+	/* display: none; */ /* https://ninthlink.atlassian.net/browse/JAC-938 */
 	clear: both;
 	padding: 10px;
 }
@@ -3539,7 +3539,7 @@ div.msrp-container {
 	background-color: #efefef;
 	padding: 10px;
 	/*position: relative;*/
-	display: inline-block;
+	display: none; /* https://ninthlink.atlassian.net/browse/JAC-938 */
 }
 div.msrp-container:before {
 	background-color: transparent;
