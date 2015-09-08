@@ -37,7 +37,7 @@ get_header(); ?>
 		<div class="<?php wptouch_post_classes(); ?> rounded-corners-8px">
 			
 			<div class="<?php wptouch_content_classes(); ?>">
-				<?php wptouch_the_content(); ?>
+				<?php //wptouch_the_content(); ?>
 		        <div itemscope itemtype="http://schema.org/Product">
 		            <meta itemprop="name" content="<?php echo the_title(); ?>" />
 		            <div id="BVRRContainer">
