@@ -25,6 +25,9 @@ get_header(); ?>
 			    );
 			}
 		</script>
+		<style>
+		.ui-btn-inner { display: none; }
+		</style>
 
 		<div class="<?php wptouch_post_classes(); ?> page-title-area rounded-corners-8px">
 
