@@ -38,6 +38,7 @@ get_header(); ?>
 			
 			<div class="<?php wptouch_content_classes(); ?>">
 				<?php //wptouch_the_content(); ?>
+				<button class="btn bigGoldBtn" style="position: absolute; right: 20px; padding: 0 20px;" onclick="submitGeneric()">Write a Review</button>
 		        <div itemscope itemtype="http://schema.org/Product">
 		            <meta itemprop="name" content="<?php echo the_title(); ?>" />
 		            <div id="BVRRContainer">
