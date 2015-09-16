@@ -15,7 +15,7 @@ $bv = new BV(
     array(
         'deployment_zone_id' => 'Main_Site-en_US',
         'product_id' => $prod, // must match ExternalID in the BV product feed
-        'cloud_key' => 'jacuzzi-6e973cecb3ca4a2d532da7d906a4cc84',
+        'cloud_key' => 'sundancespas-486bb392da92b7b9f1e1628eec33b8ae',
         'staging' => $is_staging
         )
     );
