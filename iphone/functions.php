@@ -39,6 +39,7 @@ function jhtmob_styles() {
 	if ( ! is_admin() ) {
 		$theme = wp_get_theme();
 		wp_enqueue_style( 'jht', get_bloginfo( 'template_url' ) .'/style.min.css', array(), $theme->Version );
+		wp_enqueue_style( 'jht-wizard', get_bloginfo( 'template_url' ) .'/css/wizard.css', array(), $theme->Version );
 	}
 }
 
