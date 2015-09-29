@@ -123,7 +123,7 @@ dataLayer.push({
         // if the SPECS has a "YouTube Video ID" 'yt_video' then insert it here..
         if ( isset($jht_specs['yt_video']) && !empty($jht_specs['yt_video']) ) {
           // #todo : sanitization? error checking?
-          echo '<iframe width="320" height="180" src="https://www.youtube.com/embed/'. $jht_specs['yt_video'] .'?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen class="ytmvid"></iframe>';
+          echo '<div class="mvid"><iframe width="320" height="180" src="https://www.youtube.com/embed/'. $jht_specs['yt_video'] .'?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>';
         } ?>
         <div class="tubcolors">
         <h3>Acrylic Shell Colors</h3>
