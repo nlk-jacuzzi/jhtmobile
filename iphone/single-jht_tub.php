@@ -121,7 +121,7 @@ dataLayer.push({
         </ul>
         <?php
         // if the SPECS has a "YouTube Video ID" 'yt_video' then insert it here..
-        if ( isset($jht_specs['yt_video']) && !empty($jht_specs['yt_video']) {
+        if ( isset($jht_specs['yt_video']) && !empty($jht_specs['yt_video']) ) {
           // #todo : sanitization? error checking?
           echo '<iframe width="320" height="180" src="https://www.youtube.com/embed/'. $jht_specs['yt_video'] .'?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen class="ytmvid"></iframe>';
         } ?>
