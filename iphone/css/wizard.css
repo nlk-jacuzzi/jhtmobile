@@ -338,7 +338,7 @@
 {
 	box-shadow: none !important;
 	text-shadow: none !important;
-	position: absolute;
+	xposition: absolute;
 	bottom: 30px;
 	margin: auto;
 	left: 0px;
@@ -349,6 +349,7 @@
 	font-size: 16px;
     color: #000 !important;
     font-family: "GSBQ";
+    margin-top: 20px;
 }
 
 .gforms_confirmation_message .entry.wizard-result-tub h3.title
@@ -427,7 +428,6 @@
 
 .gforms_confirmation_message .wiz-bullets ul li
 {
-	list-style: none;
 	font-size: 14px;
     line-height: 18px;
     font-family: "Arial";
