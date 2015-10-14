@@ -442,6 +442,9 @@
 .gforms_confirmation_message .wiz-bullets ul li sup
 {
 	font-size: 0.9em;
+	position: relative;
+	top: -2px;
+	vertical-align: top;
 }
 
 
