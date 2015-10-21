@@ -99,7 +99,7 @@ dataLayer.push({
 			}
 			?>
             <div class="content">
-				<div id="readmorediv"><?php wptouch_the_content(); ?></div>
+				<?php wptouch_the_content(); ?>
             </div>
 		</div>
         <ul class="tubinfo">
