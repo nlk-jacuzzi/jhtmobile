@@ -5,7 +5,7 @@
 	jQuery(document).ready(function(){
 		jQuery('#readmorediv').readmore({
 										  speed: 75,
-										  collapsedHeight: 100,
+										  collapsedHeight: 50,
 										  moreLink: '<a href="#">Learn More</a>'
 										});
 
