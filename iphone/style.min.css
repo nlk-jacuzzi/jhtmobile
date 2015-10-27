@@ -518,3 +518,7 @@ div.gform_wrapper div.ui-submit input[type="submit"] {width:100%;}
 .gf_left_half, .gf_right_half {width: 100%!important;}
 .wpb_row{margin:0!important;}
 .gform_page_footer span.ui-btn-inner {display:none;}
+
+.theme-jhtmobile .bv-popup-in {
+	display: none !important;
+}
