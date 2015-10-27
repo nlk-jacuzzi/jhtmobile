@@ -2698,7 +2698,7 @@ ul.tubinfo li {
 	height: 274px;
 	height: 475px; /* Promo height */
 	background: url(images/dealerland.jpg) no-repeat 50% 0;
-	background: url(images/mobile-promo-oct2015.jpg) no-repeat 50% 0; /* Promo Image */
+	/*background: url(images/mobile-promo-oct2015.jpg) no-repeat 50% 0; /* Promo Image */
 	background-size: cover;
 	position: relative;
 	z-index: 1;
