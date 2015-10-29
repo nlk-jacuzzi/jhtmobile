@@ -1,4 +1,16 @@
 <?php get_header(); ?>	
+<script src="<?php wptouch_bloginfo( 'template_directory' ); ?>/js/readmore.min.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('#readmorediv').readmore({
+										  speed: 75,
+										  collapsedHeight: 50,
+										  moreLink: '<a href="#">Learn More</a>'
+										});
+
+	});	
+</script>
 
 	<?php if ( wptouch_have_posts() ) { ?>
 	
@@ -118,7 +130,13 @@ dataLayer.push({
         </div>
         <ul class="tubinfo">
             <li>Monthly energy costs are estimates based on the results of the California Energy Commissions Portable Hot Tub Testing Protocol. Ambient temperature of 60° F / 15° C and national average of 10 cents per kWh. Actual monthly costs may vary depending on temperature, electricity costs, and usage.</li>
-        </ul>        
+        </ul>
+        <?php
+        // if the SPECS has a "YouTube Video ID" 'yt_video' then insert it here..
+        if ( isset($jht_specs['yt_video']) && !empty($jht_specs['yt_video']) ) {
+          // #todo : sanitization? error checking?
+          echo '<div class="mvid"><iframe width="320" height="180" src="https://www.youtube.com/embed/'. $jht_specs['yt_video'] .'?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>';
+        } ?>
         <div class="tubcolors">
         <h3>Acrylic Shell Colors</h3>
         <p>The Jacuzzi TriFusion&trade; System produces a durable acrylic spa shell that is eight times stronger than conventional fiberglass shells and rich in color and texture.</p>
