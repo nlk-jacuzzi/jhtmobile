@@ -462,6 +462,11 @@
     margin-left: 0.263em;
 }
 
+.gform_wrapper .gfield_required
+{
+	display: none !important;	
+}
+
 @media only screen and (max-width: 767px)
 {
 	.gform_wrapper.stepwizard_wrapper .gform_heading {
