@@ -2722,8 +2722,8 @@ ul.tubinfo li {
 	z-index: 1;
 }
 .canada #dlandimg {
-	background: url(images/dealerland.jpg) no-repeat 50% 0;
 	background: url(images/hero12112015CA.jpg) no-repeat 50% 0; /* Promo Image */
+	background-size: cover;
 }
 #dltopform {
 	float: left;
