@@ -122,6 +122,12 @@ function classic_body_classes( $body_classes ) {
 		$body_classes[] = 'ajax-on';
 	}
 
+	if ( in_array($_SERVER['SERVER_NAME'],array('www.jacuzzi.ca','jacuzzi.ca')) ) {
+		$body_classes[] = 'canada';
+	} else {
+		$body_classes[] = 'not-canada';
+	}
+
 	if ( !$settings->enable_menu_icons ) {
 		$body_classes[] = 'no-icons';
 	}
