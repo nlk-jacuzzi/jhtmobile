@@ -2714,12 +2714,17 @@ ul.tubinfo li {
 	min-width: 320px;
 	width: 100%;
 	height: 274px;
-	height: 475px; /* Promo height */
+	/* height: 475px; /* Promo height */
+	background: url(images/hero12112015.jpg) no-repeat 50% 0; /* Promo Image */
 	background: url(images/dealerland.jpg) no-repeat 50% 0;
-	/*background: url(images/mobile-promo-oct2015.jpg) no-repeat 50% 0; /* Promo Image */
 	background-size: cover;
 	position: relative;
 	z-index: 1;
+}
+.canada #dlandimg {
+	background: url(images/hero12112015CA.jpg) no-repeat 50% 0; /* Promo Image */
+	background: url(images/dealerland.jpg) no-repeat 50% 0;
+	background-size: cover;
 }
 #dltopform {
 	float: left;
