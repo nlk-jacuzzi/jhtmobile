@@ -74,7 +74,11 @@ dataLayer.push({
 </script>
 <script type="text/javascript">
     $BV.ui( 'rr', 'show_reviews', {
-        doShowContent : function () {}
+        doShowContent : function () {
+            $('html, body').animate({
+                scrollTop: $("#BVRRContainer").offset().top
+            }, 500);
+        }
     });
 </script>
 
@@ -165,6 +169,9 @@ dataLayer.push({
                 <a href="<?php echo get_bloginfo('url'); ?>/color-selector/">View Color Selector</a>
             </h3>
         </div>
+        <ul class="tubinfo">
+            <li><div id="BVRRContainer"><?php echo $bv->reviews->getContent();?></div></li>
+        </ul>
 
 <?php
 	}
