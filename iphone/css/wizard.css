@@ -89,6 +89,7 @@
     border: 1px solid rgb(205, 151, 0);
     background-image: none;
     box-shadow: none;
+    display: none !important;
 }
 
 .gform_wrapper.stepwizard_wrapper .percentbar_custom
@@ -293,10 +294,10 @@
 	font-size: 18px;
     line-height: 22px;
     font-family: "GSMT";
-    color: #cd9700;
+    color: #B98100;
     padding-right: 20px;
     display: inline-block;
-    text-decoration: none;
+    xtext-decoration: none;
 }
 
 .gforms_confirmation_message .entry.wizard-result-tub
@@ -337,7 +338,7 @@
 {
 	box-shadow: none !important;
 	text-shadow: none !important;
-	position: absolute;
+	xposition: absolute;
 	bottom: 30px;
 	margin: auto;
 	left: 0px;
@@ -348,6 +349,7 @@
 	font-size: 16px;
     color: #000 !important;
     font-family: "GSBQ";
+    margin-top: 20px;
 }
 
 .gforms_confirmation_message .entry.wizard-result-tub h3.title
@@ -381,7 +383,19 @@
 
 .gforms_confirmation_message .entry.wizard-result-tub .spec
 {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
+	margin-left: -24px;
+	margin-right: -24px;	
+}
+
+.gforms_confirmation_message .entry.wizard-result-tub .spec p:nth-child(odd)
+{
+	background: #ebebeb;
+}
+
+.gforms_confirmation_message .entry.wizard-result-tub .spec p:nth-child(even)
+{
+	background: #fff;
 }
 
 .gforms_confirmation_message .entry.wizard-result-tub #BVRRSummaryContainer
@@ -407,28 +421,36 @@
 
 .gforms_confirmation_message .wiz-bullets
 {
-	margin-left: -24px;
-	margin-right: -24px;
-	width: 119%;
+	xmargin-left: -24px;
+	xmargin-right: -24px;
+	xwidth: 119%;
 }
 
 .gforms_confirmation_message .wiz-bullets ul li
 {
-	list-style: none;
 	font-size: 14px;
     line-height: 18px;
     font-family: "Arial";
     color: #000;
     font-weight: 400;
     padding: 10px;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
+.gforms_confirmation_message .wiz-bullets ul li sup
+{
+	font-size: 0.9em;
+	position: relative;
+	top: -2px;
+	vertical-align: top;
+}
+
 
 .gforms_confirmation_message .wiz-bullets ul li:nth-child(odd)
 {
-	background: #ebebeb;
+	xbackground: #ebebeb;
 }
 
 .gforms_confirmation_message .wiz-bullets ul li:nth-child(even)
@@ -438,6 +460,11 @@
 
 .gform_wrapper.gf_browser_chrome.stepwizard_wrapper ul.gform_fields li.gfield input[type=radio] {
     margin-left: 0.263em;
+}
+
+.gform_wrapper .gfield_required
+{
+	display: none !important;	
 }
 
 @media only screen and (max-width: 767px)
