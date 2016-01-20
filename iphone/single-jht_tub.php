@@ -169,9 +169,9 @@ dataLayer.push({
                 <a href="<?php echo get_bloginfo('url'); ?>/color-selector/">View Color Selector</a>
             </h3>
         </div>
-        <ul class="tubinfo">
+        <?php /*<ul class="tubinfo">
             <li><div id="BVRRContainer"><?php echo $bv->reviews->getContent();?></div></li>
-        </ul>
+        </ul> */ ?>
 
 <?php
 	}
