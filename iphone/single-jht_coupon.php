@@ -32,8 +32,13 @@ get_header('blank');
 
 
 <?php
-if ( have_posts() ) while ( have_posts() ) : the_post();
-	$banner_img = get_field('banner_bacgkround_desktop');
+global $post_ID;
+if ( wptouch_have_posts() ) while ( wptouch_have_posts() ) : wptouch_the_post();
+	$banner_img = get_field('banner_bacgkround_mobile', $post_ID);
+	if(!$banner_img)
+	{
+		$banner_img = get_field('banner_bacgkround_desktop', $post_ID);
+	}
 	?>
 	<script type="text/javascript">var switchTo5x=true;</script>
 	<script type="text/javascript">var switchTo5x=true;</script>
@@ -65,7 +70,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
     	<div class="wrap">
         	<div class="row">
             	<div class="col-xs-12 col-sm-8 col-md-7">
-            		<?php the_field('banner_text'); ?>
+            		<?php the_field('banner_text', $post_ID); ?>
             	</div>
             	<span class="arrow_down"></span>
             </div>
@@ -76,10 +81,10 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-8 mainsection">
                 	<div class="main-content">
-                		<?php the_field('introductory_text'); ?>
+                		<?php the_field('introductory_text', $post_ID); ?>
                 		<div class="coupon_container">
                 			<div class="coupon_cutout">
-                				<img src="<?php the_field('coupon_cutout'); ?>" class="img-responsive img-coupon" />
+                				<img src="<?php the_field('coupon_cutout', $post_ID); ?>" class="img-responsive img-coupon" />
                 			</div>
                 			<div class="coupon_action">
                 				<div class="row">
@@ -96,22 +101,22 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
                 			</div>
                 		</div>
                 		<div class="bottom_content">
-                			<?php the_content(); ?>
+                			<?php wptouch_the_content(); ?>
                 		</div>
                 	</div>
                 </div>
                <div class="col-xs-12 col-sm-4 col-md-4 sidebarsection">
                 	<div class="eachSidebarWidget eventLocation">
                 		<h3>Event Location</h3>
-                		<?php the_field('event_location'); ?>
+                		<?php the_field('event_location', $post_ID); ?>
                 	</div>
                 	<div class="eachSidebarWidget googleMap">
-                		<?php the_field('google_map_code'); ?>
+                		<?php the_field('google_map_code', $post_ID); ?>
                 		<a href="<?php the_field('get_direction_link'); ?>" class="btn btn-primary btn-direction">Get Directions</a>
                 	</div>
                 	<div class="eachSidebarWidget">
                 		<h3>Hours</h3>
-                		<?php the_field('hours_of_operation'); ?>
+                		<?php the_field('hours_of_operation', $post_ID); ?>
                 	</div>
                 </div>
             </div>
