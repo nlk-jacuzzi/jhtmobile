@@ -16,68 +16,11 @@
 		<p><?php _e( "Turn it on in browser settings to view this mobile website.", "wptouch" ); ?></p>
 	</div>
 </noscript>
-	<?php if ( wptouch_has_welcome_message() ) { ?>
-		<div id="welcome-message">
-			<?php wptouch_the_welcome_message(); ?>
-			<br /><br /><br />
-			<a href="<?php wptouch_the_welcome_message_dismiss_url(); ?>" id="close-msg" role="button"><?php _e( "Close Message", "wptouch-pro" ); ?></a>	
-		</div>
-	<?php } ?>
-	<?php if ( wptouch_prowl_tried_to_send_message() ) { ?>
-		<div id="prowl-message" class="rounded-corners-8px">
-			<?php if ( wptouch_prowl_message_succeeded() ) { ?>
-				<span class="success"><?php _e( "Message sent successfully.", "wptouch-pro" ); ?></span>
-			<?php } else { ?>
-				<span class="failed"><?php _e( "Your message failed to send. Please try again.", "wptouch-pro" ); ?></span>
-			<?php } ?>
-		</div>
-	<?php } ?>
+	
 	<div id="outer-ajax">
 		<div id="inner-ajax">
-			<div id="header">
-				<?php if ( classic_mobile_has_logo() ) { ?>
-					<a id="custom-logo-title" href="<?php wptouch_bloginfo( 'url' ); ?>" role="button">&nbsp;</a>
-						<?php classic_mobile_logo_img(); ?>
-				<?php } else { ?>
-					<?php if ( classic_mobile_show_site_icon() ) { ?>
-						<a href="<?php wptouch_bloginfo( 'url' ); ?>">
-							<img id="logo-icon" src="<?php wptouch_the_site_menu_icon( WPTOUCH_ICON_HOME ) ; ?>" alt="logo" role="button" width="59" height="60" />
-						</a>
-					<?php } ?>
-					<a id="logo-title" href="<?php wptouch_bloginfo( 'url' ); ?>" role="button">
-						<?php wptouch_bloginfo( 'site_title' ); ?>
-					</a>
-				<?php } ?>
-				<!-- If you disable the menu this menu button won't show, so you'll have to roll your own! -->
-				<?php if ( wptouch_has_menu() ) { ?>
-					<?php if ( classic_mobile_has_menu_icon() ) { ?>
-						<a id="header-menu-toggle" class="no-ajax" href="#" role="button">
-							<img src="<?php wptouch_bloginfo( 'template_directory' ); ?>/images/menu_toggle_icon.png" alt="menu image" width="21" height="12" />
-						</a>
-					<?php } else { ?>
-						<a id="header-menu-toggle" class="no-ajax" href="#" role="button">
-							<?php _e( "Menu", "wptouch-pro" ); ?>
-						</a>
-					<?php } ?>
-				<?php } ?>
-			</div>
 			
 			<!-- This brings in menu.php // remove it and the whole menu won't show at all -->
-			<?php if ( wptouch_has_menu() ) { ?>
-				<div id="main-menu" class="closed">
-					<!-- The Hidden Search Bar -->
-					<div id="search-bar">
-						<div id="wptouch-search-inner">
-							<form method="get" id="searchform" action="<?php wptouch_bloginfo( 'search_url' ); ?>/">
-								<input type="text" name="s" id="search-input" tabindex="1" placeholder="<?php _e( 'Search', 'wptouch-pro' ); ?>&hellip;" />
-								<input name="submit" type="hidden" id="search-submit-hidden" tabindex="2" />
-							</form>
-						</div>		
-					</div>
-					<!-- The WPtouch Tab-Bar // includes Page Menu -->
-					<?php include_once( 'tab-bar.php' ); ?>	
-				</div>
-			<?php } ?>
 			
 			<?php do_action( 'wptouch_body_top' ); ?>
 		
