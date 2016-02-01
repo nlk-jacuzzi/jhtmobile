@@ -83,6 +83,9 @@ if ( wptouch_have_posts() ) while ( wptouch_have_posts() ) : wptouch_the_post();
                 	<div class="main-content">
                 		<?php the_field('introductory_text', $post_ID); ?>
                 		<div class="coupon_container">
+                			<div class="bottom_content">
+	                			<?php wptouch_the_content(); ?>
+	                		</div>
                 			<div class="coupon_cutout">
                 				<img src="<?php the_field('coupon_cutout', $post_ID); ?>" class="img-responsive img-coupon" />
                 			</div>
@@ -99,9 +102,6 @@ if ( wptouch_have_posts() ) while ( wptouch_have_posts() ) : wptouch_the_post();
                 					</div>
                 				</div>
                 			</div>
-                		</div>
-                		<div class="bottom_content">
-                			<?php wptouch_the_content(); ?>
                 		</div>
                 	</div>
                 </div>
