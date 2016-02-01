@@ -14,5 +14,18 @@
 	</form>
 	<div id="dlandimg"></div>
     <div id="dlrap"><div id="dlresult"></div></div>
+    <?php
+			global $post_ID;
+			$banner_image = get_field('banner_image', $post_ID );
+			if($banner_image):
+			?>
+				<style type="text/css">
+					#dlandimg {
+					    background-image: url('<?php echo $banner_image; ?>') !important;
+					}
+				</style>
+			<?php
+			endif;
+	?>
 <?php } ?>
 <?php get_footer(); ?>
