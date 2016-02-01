@@ -424,6 +424,12 @@ a
 	background-position: -118px 0px;
 }
 
+.hide_on_mobile
+{
+	display: none !important;
+}
+
+
 @media screen and (max-width: 767px) {
     .logosection h1 a
     {
@@ -521,11 +527,36 @@ a
 }
 
 @media screen and (max-width: 515px) {
-	.coupon_action .get_coupon , .coupon_action .share_coupon
+	.xcoupon_action .get_coupon , .xcoupon_action .share_coupon
 	{
 		float: none;
 		width: 100%;
 		margin-bottom: 20px;
 	}
+	
+	.main-content .btn.btn-primary.btn-print, .sidebarsection .eachSidebarWidget.googleMap a.btn {
+	    font-size: 18px;
+	    padding: 15px 20px;
+	}
+	
+	.main-content .share_coupon li .st_email_large .stButton .stLarge {
+	    background: url('../images/coupons/icon_share_email.png') 0 0 no-repeat transparent !important;
+	    height: 16px;
+	    width: 25px;
+	}
+	
+	.main-content .share_coupon li .st_sharethis_large .stButton .stLarge
+	{
+		background: url('../images/coupons/icon_share_arrow.png') 0 0 no-repeat transparent !important;
+		height: 17px;
+		width: 19px;
+	}
+	
+	.main-content .share_coupon ul
+	{
+		float: right;
+    	margin-right: 15px;
+	}
 }	
+
 
