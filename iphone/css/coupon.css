@@ -429,6 +429,12 @@ a
 	display: none !important;
 }
 
+.table.no-bordered > tr > td
+{
+	border-top: 0px solid #DDD;	
+}
+
+
 
 @media screen and (max-width: 767px) {
     .logosection h1 a
