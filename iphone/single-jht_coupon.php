@@ -81,7 +81,7 @@ if ( wptouch_have_posts() ) while ( wptouch_have_posts() ) : wptouch_the_post();
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-8 mainsection">
                 	<div class="main-content">
-                		<?php the_field('introductory_text', $post_ID); ?>
+                		<h2><?php the_field('introductory_head', $post_ID); ?></h2>
                 		<div class="coupon_container">
                 			<div class="coupon_cutout">
                 				<img src="<?php the_field('coupon_cutout', $post_ID); ?>" class="img-responsive img-coupon" />
@@ -99,10 +99,8 @@ if ( wptouch_have_posts() ) while ( wptouch_have_posts() ) : wptouch_the_post();
                 					</div>
                 				</div>
                 			</div>
-                			<div class="bottom_content">
-	                			<?php wptouch_the_content(); ?>
-	                		</div>
                 		</div>
+                		<?php the_field('introductory_text', $post_ID); ?>
                 	</div>
                 </div>
                <div class="col-xs-12 col-sm-4 col-md-4 sidebarsection">
@@ -119,6 +117,13 @@ if ( wptouch_have_posts() ) while ( wptouch_have_posts() ) : wptouch_the_post();
                 		<?php the_field('hours_of_operation', $post_ID); ?>
                 	</div>
                 </div>
+            </div>
+            <div class="row">
+            	<div class="col-xs-12">
+            		<div class="bottom_content">
+	                	<?php wptouch_the_content(); ?>
+	                </div>
+            	</div>
             </div>
         </div>
 	</div>    
