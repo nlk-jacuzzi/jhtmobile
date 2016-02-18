@@ -15,7 +15,7 @@
 	</form>
 </div>
 <?php } ?>
-<a href="<?php bloginfo('url'); ?>/hot-tubs-collection/" data-role="none" class="mbtn hottubs"><span class="im"></span><span class="tx">View Hot Tubs</span><span class="ar"></span></a>
+<a href="<?php hot_tubs_collection_url(); ?>" data-role="none" class="mbtn hottubs"><span class="im"></span><span class="tx">View Hot Tubs</span><span class="ar"></span></a>
 					<?php
 if ( !is_page('get-a-quote')) {
 ?>

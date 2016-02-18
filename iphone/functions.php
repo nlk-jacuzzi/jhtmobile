@@ -368,7 +368,28 @@ GTM;
 	}
 }
 
-
+function hot_tubs_collection_url() {
+	$url = get_hot_tubs_collection_url();
+	print($url);
+}
+function hot_tubs_collection_url_part() {
+	$url = get_hot_tubs_collection_url_part();
+	print($url);
+}
+function get_hot_tubs_collection_url() {
+	$url = get_bloginfo('url');
+	$url .= get_hot_tubs_collection_url_part();
+	return $url;
+}
+function get_hot_tubs_collection_url_part() {
+	$url = '/';
+	if ( in_array($_SERVER['SERVER_NAME'],array('www.jacuzzi.ca','jacuzzi.ca')) ) {
+		$url .= 'hot-tubs/';
+	} else {
+		$url .= 'hot-tubs-collection/';
+	}
+	return $url;
+}
 
 
 /** BV : BazaarVoice Integrations **/
