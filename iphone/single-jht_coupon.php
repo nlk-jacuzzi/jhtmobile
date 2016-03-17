@@ -52,7 +52,7 @@ if ( wptouch_have_posts() ) while ( wptouch_have_posts() ) : wptouch_the_post();
 						<h1><a href="#">Jacuzzi</a></h1>
 					</div>
 					<div class="col-xs-12 col-sm-4 col-md-6 taglinesection">
-						<h2>Aqua Paradise Hot Tubs & Spas. San Diego</h2>
+						<h2><?php the_field('tag_line', $post_ID); ?></h2>
 					</div>
 					<div class="col-xs-12 col-sm-5 col-md-4 shareicons">
 						<ul>
