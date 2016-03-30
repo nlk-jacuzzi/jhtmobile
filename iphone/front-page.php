@@ -17,7 +17,14 @@
 				global $post_ID;
 				$banner_image = get_field('banner_image', $post_ID );
 				if($banner_image):
-					echo '<img src="'.$banner_image.'" class="banner-img-alt" />';
+					$banner_link = get_field('banner_link', $post_ID );
+					if($banner_link){
+						echo '<a href="'.$banner_link.'">';
+					}
+						echo '<img src="'.$banner_image.'" class="banner-img-alt" />';
+					if($banner_link){
+						echo '</a>';
+					}	
 				?>
 					<style type="text/css">
 						#dlandimg {
