@@ -537,3 +537,46 @@ div.gform_wrapper div.ui-submit input[type="submit"] {width:100%;}
 }
 .bv-content-data-icon img.emoji {width: 18px !important;}
 div.gform_wrapper .bigGoldBtn{ height: 44px;}
+
+/* Walk In Page fixes */
+
+.sign-up 
+{
+	margin: 15px 0px;
+}
+
+.sign-up .sign-up-text
+{
+	position: inherit !important;
+}
+
+.sign-up .sign-up-img
+{
+	position: inherit !important;
+}
+
+.sign-up .sign-up-img a.owners-corner-link , .sign-up .sign-up-img img
+{
+	display: block;
+	margin: 5px auto;
+}
+
+a.mbtn .tx
+{
+	width: 194px;
+}
+
+.manuals p img, .watermaint p img, .htaccessories p img, .htmaint p img
+{
+	margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+
+.hero .img-genuine
+{
+	background: #000;
+    padding: 5px;
+    display: block;
+    margin: 5px auto;
+}
