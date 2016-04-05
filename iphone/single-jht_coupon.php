@@ -50,10 +50,10 @@ if ( wptouch_have_posts() ) while ( wptouch_have_posts() ) : wptouch_the_post();
 				<div class="row">
 					<div class="col-xs-12 col-sm-3 col-md-2 logosection">
 						<h1><a href="#">Jacuzzi</a></h1>
-					</div>
+					</div><?php /* ?>
 					<div class="col-xs-12 col-sm-4 col-md-6 taglinesection">
 						<h2><?php the_field('tag_line', $post_ID); ?></h2>
-					</div>
+					</div><?php */ ?>
 					<div class="col-xs-12 col-sm-5 col-md-4 shareicons">
 						<ul>
 							<li>Share This</li>
