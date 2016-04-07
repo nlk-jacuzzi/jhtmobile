@@ -107,6 +107,7 @@ a
 	min-height: 272px;
 	padding-top: 50px;
 	position: relative;
+	display: none;
 }
 
 .banner-section .arrow_down
@@ -143,7 +144,7 @@ a
 
 .main-wrap
 {
-	padding: 50px 0px;	
+	padding: 25px 0px;	
 }
 
 .main-content h2
@@ -466,6 +467,7 @@ a
     .shareicons {
 	    padding: 25px 0px;
 	    background: #f1f1f1;
+	    display: none;
 	}
 	
     .shareicons li:first-child
