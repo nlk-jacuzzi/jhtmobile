@@ -107,7 +107,6 @@ a
 	min-height: 272px;
 	padding-top: 50px;
 	position: relative;
-	display: none;
 }
 
 .banner-section .arrow_down
@@ -529,6 +528,7 @@ a
 	.wrapper.coupon_head
 	{
 		padding-bottom: 0px;
+		display: none;
 	}
 	
 	.shareicons ul {
