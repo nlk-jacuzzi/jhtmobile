@@ -12,7 +12,37 @@
 	<input type="text" data-role="none" id="dlzip" name="dlzip" value="<?php echo (isset($_GET['dlzip']) ? $_GET['dlzip'] : 'Zip/Postal Code'); ?>" onblur="if(this.value=='') this.value='Zip/Postal Code';" onfocus="if(this.value=='Zip/Postal Code') this.value='';" />
 	<input type="submit" data-role="none" value="SEARCH" class="dlsub" />
 	</form>
-	<div id="dlandimg"></div>
+	<div id="dlandimg">
+		<?php
+				global $post_ID;
+				$banner_image = get_field('banner_image', $post_ID );
+				if($banner_image):
+					$banner_link = get_field('banner_link', $post_ID );
+					if($banner_link){
+						echo '<a href="'.$banner_link.'">';
+					}
+						echo '<img src="'.$banner_image.'" class="banner-img-alt" />';
+					if($banner_link){
+						echo '</a>';
+					}	
+				?>
+					<style type="text/css">
+						#dlandimg {
+						    height: auto !important;
+						    width: 100% !important;
+						    background: none !important;
+						}
+						
+						#dlandimg img
+						{
+							height: auto !important;
+						    width: 100% !important;
+						}
+					</style>
+				<?php
+				endif;
+		?>
+	</div>
     <div id="dlrap"><div id="dlresult"></div></div>
 <?php } ?>
 <?php get_footer(); ?>
