@@ -538,4 +538,4 @@ div.gform_wrapper div.ui-submit input[type="submit"] {width:100%;}
 .bv-content-data-icon img.emoji {width: 18px !important;}
 div.gform_wrapper .bigGoldBtn{ height: 44px;}
 /* Menu Scroll on landscape */
-#main-menu{ display: block; overflow-y: scroll; bottom: 0; overflow-x: hidden; }
+#main-menu{ overflow-y: scroll; bottom: 0; overflow-x: hidden; }
