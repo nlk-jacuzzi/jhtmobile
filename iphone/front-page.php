@@ -15,7 +15,7 @@
 	<div id="dlandimg">
 		<?php
 				global $post_ID;
-				$banner_image = get_field('banner_image', $post_ID );
+				$banner_image = (function_exists('get_field') ? get_field('banner_image', $post_ID ) : false);
 				if($banner_image):
 					$banner_link = get_field('banner_link', $post_ID );
 					if($banner_link){
