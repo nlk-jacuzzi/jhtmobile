@@ -19,6 +19,7 @@
 	<script type='text/javascript' src='http://greeterware.com/Dashboard/cwgen/Company/LiveAdmins/jacuzzi.com/chatwindow.js?ver=2.0'></script>
 	<script type='text/javascript' defer="defer" src='http://greeterware.com/Dashboard/cwgen/scripts/chatscriptyui.js?ver=2.0'></script>
 <?php } ?>
+<?php if ( function_exists('google_tag_manager_container') ) google_tag_manager_container(); ?>
 
 	</body>
 </html>

@@ -349,22 +349,30 @@ function classic_commenter_link() {
 	echo $avatar . ' <span class="fn n">' . $commenter . '</span>';
 } // end commenter_link
 
+function mobile_is_ca() {
+	if ( in_array($_SERVER['SERVER_NAME'],array('www.jacuzzi.ca','jacuzzi.ca')) ) {
+		return true;
+	}
+	return false;
+}
 
 add_action('wp_footer', 'google_tag_manager_container');
 if ( !function_exists("google_tag_manager_container") ) {
 	function google_tag_manager_container() {
-		$str = <<<GTM
-		<!-- Google Tag Manager -->
-		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MPVB5L"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-MPVB5L');</script>
-		<!-- End Google Tag Manager -->
-GTM;
-		echo $str;
+		if ( function_exists('mobile_is_ca') && mobile_is_ca() ) {
+			$container_id = 'GTM-MFCH5P';
+		} else {
+			$container_id = 'GTM-MPVB5L';
+		}
+		sprintf("<!-- Google Tag Manager -->
+			<noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-MPVB5L\"
+			height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','%s');</script>
+			<!-- End Google Tag Manager -->", $container_id);
 	}
 }
 
